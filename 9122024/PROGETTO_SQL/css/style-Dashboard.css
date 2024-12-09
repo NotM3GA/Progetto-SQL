@@ -1,0 +1,102 @@
+/* --- DASHBOARD PAGE --- */
+body {
+    background: #f5f5f7;  /* Colore di sfondo chiaro per un aspetto pulito. */
+    color: #333;  /* Colore del testo principale in grigio scuro. */
+    font-family: Arial, sans-serif;  /* Font leggibile e moderno. */
+    line-height: 1.6;  /* Altezza della linea per migliorare la leggibilità del testo. */
+    font-size: 16px;  /* Dimensione del font di base. */
+    margin: 40px;  /* Margine generale per creare spazio attorno alla pagina. */
+    padding: 0;  /* Nessun padding interno al corpo della pagina. */
+}
+
+.container {
+    max-width: 1000px;  /* Larghezza massima del contenitore per mantenerlo centrato e leggibile. */
+    width: 100%;  /* Il contenitore occupa tutta la larghezza disponibile se è più piccolo del massimo. */
+    margin: 0 auto;  /* Centra orizzontalmente il contenitore. */
+    padding: 20px;  /* Padding interno per distanziare il contenuto dai bordi. */
+    background-color: #fff;  /* Sfondo bianco per il contenitore. */
+    border-radius: 8px;  /* Arrotonda gli angoli del contenitore. */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Aggiunge un'ombra leggera per un effetto di profondità. */
+}
+
+h1 {
+    font-size: 2.5em;  /* Dimensione grande per il titolo principale. */
+    margin-bottom: 20px;  /* Spazio inferiore per separarlo dal contenuto successivo. */
+}
+
+h2 {
+    font-size: 2em;  /* Dimensione leggermente più piccola per i sottotitoli. */
+    color: gray;  /* Colore grigio per i sottotitoli. */
+    margin-bottom: 20px;  /* Spazio inferiore per la separazione visiva. */
+}
+
+ul {
+    list-style: none;  /* Rimuove i puntini predefiniti della lista. */
+    padding: 0;  /* Rimuove l'imbottitura predefinita della lista. */
+}
+
+ul li {
+    background-color: #fff;  /* Sfondo bianco per gli elementi della lista. */
+    padding: 15px; /* Spazio interno uniforme per ciascun elemento della lista. */
+    margin: 10px 0; /* Spazio verticale tra gli elementi della lista. */
+    border-radius: 8px;  /* Arrotonda gli angoli degli elementi della lista. */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Ombra leggera per evidenziare gli elementi. */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Effetto di transizione fluido per hover. */
+}
+
+ul li:hover {
+    transform: translateY(-5px);  /* Sposta l'elemento verso l'alto quando ci si passa sopra. */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);  /* Ombra più pronunciata per evidenziare l'elemento. */
+}
+
+ul li a {
+    color: rgb(78, 78, 78);  /* Colore del testo per i link. */
+    text-decoration: none;  /* Rimuove la sottolineatura predefinita dei link. */
+    font-weight: bold;  /* Rende il testo dei link in grassetto. */
+    display: inline-block; /* Permette il margine intorno al link. */
+    margin-left: 15px;  /* Spazio tra il link e il testo circostante. */
+}
+
+ul li a:hover {
+    text-decoration: underline;  /* Aggiunge una sottolineatura al passaggio del mouse. */
+}
+
+a.logout {
+    background-color: rgb(78, 78, 78); /* Colore di sfondo grigio scuro per il pulsante di logout. */
+    color: white;   /* Colore del testo bianco per contrasto. */
+    padding: 10px 20px; /* Spazio interno uniforme nel pulsante. */
+    border-radius: 8px;  /* Arrotonda gli angoli del pulsante. */
+    text-decoration: none; /* Rimuove la sottolineatura del testo nel pulsante. */
+    font-size: 1em; /* Dimensione standard del testo nel pulsante. */
+    display: inline-block; /* Permette il margine e la centratura del pulsante. */
+    margin-top: 20px; /* Spazio superiore per separarlo dagli altri elementi. */
+}
+
+a.logout:hover {
+    background-color: #8d8f92;  /* Cambia il colore di sfondo al passaggio del mouse. */
+}
+
+/* Bottone per creare un nuovo test */
+a.create-test {
+    background-color: #0071e3; /* Colore blu per il pulsante di creazione. */
+    color: white; /* Testo bianco per contrasto. */
+    padding: 10px 20px; /* Spazio interno uniforme nel pulsante. */
+    border-radius: 8px; /* Arrotonda gli angoli del pulsante. */
+    text-decoration: none; /* Rimuove la sottolineatura del testo. */
+    font-size: 1em; /* Dimensione del testo nel pulsante. */
+    display: inline-block; /* Permette margini e centratura. */
+    margin-top: 20px; /* Spazio superiore per separarlo dagli altri elementi. */
+}
+
+a.create-test:hover {
+    background-color: #8d9094; /* Cambia il colore di sfondo al passaggio del mouse. */
+}
+
+.student-section, .teacher-section {
+    margin-top: 20px; /* Spazio superiore per separare la sezione dal contenuto precedente. */
+    text-align: center; /* Centra il testo e gli elementi all'interno della sezione. */
+}
+
+.student-section ul, .teacher-section ul {
+    margin-top: 20px; /* Spazio superiore per separare la lista dal resto della sezione. */
+}

@@ -1,0 +1,55 @@
+/* --- TEST PAGE --- */
+.test-container {
+    padding: 20px; /* Aggiunge un'imbottitura interna di 20px al contenitore principale. */
+}
+
+.test-container h1 {
+    text-align: center; /* Centra il testo del titolo. */
+    font-size: 2.5em; /* Imposta la dimensione del font a 2,5 em. */
+    color: #333; /* Colore del testo grigio scuro. */
+    margin-bottom: 30px; /* Aggiunge uno spazio di 30px sotto il titolo. */
+}
+
+form {
+    width: 100%; /* Il modulo occupa l'intera larghezza disponibile. */
+    margin-top: 20px; /* Aggiunge uno spazio di 20px sopra il modulo. */
+}
+
+form label {
+    display: block; /* Fa sì che l'etichetta occupi tutta la larghezza del contenitore. */
+    font-weight: bold; /* Rende il testo in grassetto. */
+    margin-bottom: 5px; /* Aggiunge uno spazio di 5px sotto l'etichetta. */
+    font-size: 16px; /* Imposta la dimensione del font a 16px. */
+}
+
+form input[type="text"], form select, form textarea {
+    width: 100%; /* Gli elementi del modulo occupano tutta la larghezza disponibile. */
+    padding: 12px; /* Aggiunge un'imbottitura interna di 12px. */
+    margin-bottom: 15px; /* Aggiunge uno spazio di 15px sotto ogni elemento. */
+    border: 1px solid #ddd; /* Imposta un bordo grigio chiaro di 1px. */
+    border-radius: 6px; /* Arrotonda gli angoli con un raggio di 6px. */
+    font-size: 14px; /* Imposta la dimensione del font a 14px. */
+}
+
+form textarea {
+    resize: none; /* Disabilita il ridimensionamento manuale della textarea. */
+    height: 100px; /* Imposta un'altezza fissa di 100px. */
+}
+
+form button {
+    width: 100%; /* Il pulsante occupa tutta la larghezza disponibile. */
+}
+
+form .checkbox-container {
+    margin-top: -10px; /* Regola la posizione verticale della checkbox per un miglior allineamento. */
+}
+
+form input[type="checkbox"] {
+    margin-top: 10px; /* Aggiunge uno spazio sopra la checkbox per migliorare il posizionamento. */
+}
+
+form .answer-container {
+    display: flex; /* Organizza gli elementi figli in un layout flessibile. */
+    flex-direction: column; /* Dispone gli elementi in colonna (uno sotto l'altro). */
+    gap: 5px; /* Imposta uno spazio di 5px tra gli elementi figli. */
+}
